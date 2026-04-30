@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Helvetica Neue", "Arial", "sans-serif";
+}
+
+@utility perspective-1000 {
+  perspective: 1000px;
+}
+
+@utility streak-glow {
+  box-shadow: 0 0 15px rgba(59,130,246,0.3);
+}
+
+@utility glass-effect {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@utility card-gradient {
+  background: linear-gradient(135deg, #1e3a8a 0%, #172554 100%);
+}
